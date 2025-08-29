@@ -2,6 +2,7 @@ flask
 gunicorn
 openai
 unstructured[all]
+unstructured[image]
 pdf2image
 pytesseract
 pillow
