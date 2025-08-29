@@ -39,7 +39,7 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
 ```
 ### Run the app
 ```bash
-python app.py
+python3 app.py
 ```
 
 ### App will start on 
