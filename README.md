@@ -17,7 +17,7 @@ A simple **Flask app** that ingests documents (PDFs, scanned images, etc.), extr
 
 ### 1. Clone the Repo
 ```bash
-git clone https://github.com/<your-username>/document-agent.git
+git clone https://github.com/revmag/document-agent.git
 cd document-agent
 ```
 
