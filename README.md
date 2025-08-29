@@ -22,18 +22,25 @@ cd document-agent
 ```
 
 ### Create virtual env
+```bash
 python3 -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
+```
 
 ### Install dependencies
-pip install -r requirements.txt
+```bash
+pip3 install -r requirements.txt
+```
 
 ### Create .env file
+```bash
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
-
+```
 ### Run the app
+```bash
 python app.py
+```
 
 ### App will start on 
 http://127.0.0.1:5000
