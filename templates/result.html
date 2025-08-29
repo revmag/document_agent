@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <body>
+    <h2>Extracted Fields</h2>
+    <table border="1" cellpadding="5">
+      <tr><th>Field</th><th>Value</th></tr>
+      {% for k,v in data %}
+      <tr><td>{{k}}</td><td>{{v}}</td></tr>
+      {% endfor %}
+    </table>
+    <br>
+    <a href="/download/json"><button>Download as JSON</button></a>
+    <a href="/download/csv"><button>Download as CSV</button></a>
+    <br><br>
+    <a href="/">Upload Another</a>
+  </body>
+</html>

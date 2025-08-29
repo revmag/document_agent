@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <body>
+    <h2>Upload Document for Extraction</h2>
+    <form method="POST" enctype="multipart/form-data">
+      <label>Upload Document:</label>
+      <input type="file" name="file" required><br><br>
+
+      <label>Required Fields (comma separated):</label>
+      <input type="text" name="fields" placeholder="e.g. landlord, tenants, rent, locality"><br><br>
+
+      <button type="submit">Process</button>
+    </form>
+  </body>
+</html>
